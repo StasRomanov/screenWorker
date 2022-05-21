@@ -27,7 +27,7 @@ def screenshotWorker():
 
         if i == 500:
             exit(0)
-        time.sleep(0.5)
+        time.sleep(5)
         i += 1
 
 
