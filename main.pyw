@@ -1,7 +1,7 @@
 import pyautogui
 import time
-import keyboard
-import subprocess
+# import keyboard
+# import subprocess
 
 
 # macbook sizes
@@ -24,9 +24,6 @@ def screenshotWorker():
 
         myScreenshot = pyautogui.screenshot()
         myScreenshot.save(f"E:\\screenshots\\fileName{i}.png")  # path+name
-
-        if i == 500:
-            exit(0)
         time.sleep(5)
         i += 1
 
@@ -37,4 +34,4 @@ def screenCalibration():
         time.sleep(0.5)
 
 # screenCalibration()
-# screenshotWorker()
+screenshotWorker()
